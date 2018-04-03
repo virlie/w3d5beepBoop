@@ -34,7 +34,9 @@ Specification:
     Example input: adff
     Example output: alert error message.
 
-6.)Program needs a reset button.
+6.)Program needs to be able to play repeatedly.
+    Example input: 23
+    Example output: (reset)
 
 
     //User Interface Logic//
