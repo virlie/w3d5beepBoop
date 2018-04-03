@@ -26,10 +26,6 @@ Specification:
     Example input: 3
     Example output: "beep,boop,I'm sorry, Dave. I'm afraid I can't do that."
 
-4.)Program needs to ignore commas.
-    Example input: 0,1,3
-    Example output:"beep boop I'm sorry, Dave. I'm afraid I can't do that."
-
 5.)Program needs to evaluate whether the input was a number or not a number.
     Example input: adff
     Example output: alert error message.
