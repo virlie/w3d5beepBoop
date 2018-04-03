@@ -3,10 +3,15 @@ $(function(){
     event.preventDefault();
 
     var input=$("#input").val()
-
-
     $("#result").text(input)
 
+    numCheck(input)
+
+  });
+
+  //business logic//
+
+  function numCheck(input) {
     var numArray = input.split("")
     for (var i=0; i < numArray.length; i++){
       if(numArray[i] == 0){
@@ -25,7 +30,7 @@ $(function(){
         break
       }
     }
-  });
+  }
 });
 
 
