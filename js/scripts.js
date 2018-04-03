@@ -10,7 +10,9 @@ $(function(){
       if(numArray[i] == 0){
         $("#result").text("Beep!")
         alert("Beep!")
-        break
+      }else if (numArray[i] == 1){
+      $("#result").text("Boop!")
+      alert("Boop!")
       }
     }
   });
@@ -38,9 +40,8 @@ $(function(){
 //       } else {
 //
 //         v
-//             }else if (numArray[i] == 1){
-//               $("#result").text("Boop!")
-//             }
+//
+//             }  break
 //           }
 //         }
 //       }
