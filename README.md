@@ -10,19 +10,32 @@ Installation:
   clone to local git clone url
   run index.html under src
 
-Specification:
+  Specification:
 
-//Business Interface Logic//
+  Program returns numbers from 0 to the input number		
+  Example input: 7
+  Example output: 0,1,2,3,4,5,6,7
 
-1.)Program replaces the 0s with the word "beep"
-    Example input:
-    Example output:beep
+  Program replaces the first number that has a 0 with the word "Beep!"
+  Example input:7
+  Example output: "Beep!"1,2,3,4,5,6,7
 
-2.)Program replaces the 1s with the word "boop"
-    Example input: 1
-    Example output:"beep,boop"
+  Program replaces the 1 with the word "Boop!"
+  Example input: 7
+  Example output: "Boop!","Beep!",2,3,4,5,6,7"
 
-3.)Program needs to recognize the numbers that are inputted, if divisible by 3, are replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+  Program  replaces a number that is divisible by 3 with the phrase: "I'm sorry, Dave. I'm afraid I can't do that."
+  Example input: 7
+  Example output: "Beep!", "Boop", 2, "I'm sorry, Dave. I'm afraid I can't do that.",4,5
+
+
+
+
+
+
+
+
+<!-- 3.)Program needs to recognize the numbers that are inputted, if divisible by 3, are replaced with "I'm sorry, Dave. I'm afraid I can't do that."
     Example input: 3
     Example output: "beep,boop,I'm sorry, Dave. I'm afraid I can't do that."
 
@@ -66,4 +79,4 @@ Specification:
 
     License:
     MIT
-    Copyright (c) 2018 Joy
+    Copyright (c) 2018 Joy -->
