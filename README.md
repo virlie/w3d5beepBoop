@@ -3,14 +3,14 @@ By Virlie Joy Paglinawan @ https://github.com/virlie/w3d5beepBoop.git.
 
 
 
-Description:
+*Description:*
  This is a program that practices arrays and looping, and more importantly, this program allows the author to learn a crucial skill of learning how to build and follow specifications.
 
-Installation:
+*Installation:*
   clone to local git clone url
   run index.html under src
 
-  Specification:
+  **Specification:**
 
   **Program returns numbers from 0 to the input number.**
   Example input: 7
@@ -32,7 +32,7 @@ Installation:
   Example input: 10
   Example output: "Beep!", "Boop!",2, "I'm sorry, Dave. I'm afraid I can't do that.",4,5,"I'm sorry, Dave. I'm afraid I can't do that.",7,8,"I'm sorry, Dave. I'm afraid I can't do that.", "Boop!"
 
-  **Program replaces the all numbers that are divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that." and overrides the "0" and "1" rules**	
+  **Program replaces the all numbers that are divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that." and overrides the "0" and "1" rules**
   Example input: 15
   Example output: "Beep!","Boop!",2,"I'm sorry, Dave. I'm afraid I can't do that.",4,5,"I'm sorry, Dave. I'm afraid I can't do that.",7,8,"I'm sorry, Dave. I'm afraid I can't do that.","Boop!","Boop!","I'm sorry, Dave. I'm afraid I can't do that.", 13, 14, "I'm sorry, Dave. I'm afraid I can't do that."
 
