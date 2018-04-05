@@ -37,10 +37,6 @@ By Virlie Joy Paglinawan @ https://github.com/virlie/w3d5beepBoop.git.
   Example output: "Beep!","Boop!",2,"I'm sorry, Dave. I'm afraid I can't do that.",4,5,"I'm sorry, Dave. I'm afraid I can't do that.",7,8,"I'm sorry, Dave. I'm afraid I can't do that.","Boop!","Boop!","I'm sorry, Dave. I'm afraid I can't do that.", 13, 14, "I'm sorry, Dave. I'm afraid I can't do that."
 
 
-  **Program needs to evaluate whether the input was a number or not a number.**
-  Example input: adff
-  Example output: alert error message.
-
   **Program needs to be able to play repeatedly.**
   Example input: 23
   Example output: (reset)
