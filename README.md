@@ -28,11 +28,11 @@ By Virlie Joy Paglinawan @ https://github.com/virlie/w3d5beepBoop.git.
   Example input: 7
   Example output: "Beep!", "Boop", 2, "I'm sorry, Dave. I'm afraid I can't do that.",4,5, "I'm sorry, Dave. I'm afraid I can't do that.", 7
 
-  **Program replaces the all numbers that has a 1 with "Boop!" and overrides the "0" rule.**
+  **Program replaces all numbers that has a 1 with "Boop!" and overrides the "0" rule.**
   Example input: 10
   Example output: "Beep!", "Boop!",2, "I'm sorry, Dave. I'm afraid I can't do that.",4,5,"I'm sorry, Dave. I'm afraid I can't do that.",7,8,"I'm sorry, Dave. I'm afraid I can't do that.", "Boop!"
 
-  **Program replaces the all numbers that are divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that." and overrides the "0" and "1" rules**
+  **Program replaces the number that are divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that." and overrides the "0" and "1" rules**
   Example input: 15
   Example output: "Beep!","Boop!",2,"I'm sorry, Dave. I'm afraid I can't do that.",4,5,"I'm sorry, Dave. I'm afraid I can't do that.",7,8,"I'm sorry, Dave. I'm afraid I can't do that.","Boop!","Boop!","I'm sorry, Dave. I'm afraid I can't do that.", 13, 14, "I'm sorry, Dave. I'm afraid I can't do that."
 
