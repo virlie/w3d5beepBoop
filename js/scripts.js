@@ -2,8 +2,8 @@ var array = [];
   //debugger;
 function numCheck(inputNumber){
   for (var i = 0; i <= inputNumber; i++){
-    var num = i.toString().split()
-    var input = parseInt(inputNumber);
+    var num = i.toString().split("")
+  //  var input = parseInt(inputNumber);
 
     if (i == 0) {
        array.push("Beep!")
@@ -11,8 +11,8 @@ function numCheck(inputNumber){
        array.push("Boop!")
     } else if ((i/3) % 1 === 0 ) {
       array.push("I'm sorry, Dave. I'm afraid I can't do that")
-    } else if (isNaN(input)) {
-      prompt("error message")
+    //} else if (isNaN(input)) {
+    //  prompt("error message")
     } else {
       array.push(i)
     }
@@ -29,6 +29,9 @@ function numCheck(inputNumber){
      numCheck(poop);
      $("#result").text(array.join());
      array = []
+   })
+   $("#reset").click(function() {
+     $("#result").text("")
    })
  })
 
