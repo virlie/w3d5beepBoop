@@ -1,23 +1,40 @@
 var array = [];
-  //debugger;
+var num;
 function numCheck(inputNumber){
   for (var i = 0; i <= inputNumber; i++){
-    var num = i.toString().split("")
-  //  var input = parseInt(inputNumber);
-
-    if (i == 0) {
-       array.push("Beep!")
-    } else if (i == 1) {
-       array.push("Boop!")
-    } else if ((i/3) % 1 === 0 ) {
-      array.push("I'm sorry, Dave. I'm afraid I can't do that")
-    //} else if (isNaN(input)) {
-    //  prompt("error message")
-    } else {
-      array.push(i)
+    num = i.toString().split("");
+    if( num.includes("0") ){
+      array.push("Beep!");
+    }else{
+      array.push(i);
     }
   }
 }
+
+
+//   function checkTen(input) {
+//     debugger;
+//     for (var i = 1; i <= checkTen; i++){
+//       inputNumber = i.toString().split("")
+//
+//     if (i == 1 || i == 0) {
+//     var checkTen = numCheck(inputNumber);
+//     ("Boop!") == checkTen;
+//     array.push("Boop!");
+//     }else {
+//       array.push(i);
+//     }
+//   } return ("#result");
+// }
+//
+//
+//
+// // for (var i = 0; i < input.length; i ++) {
+// //   if (input[i] == 1; ){
+// //     array.push("Boop!");
+// // } else  (input[i] === true) {
+// //   }
+// // }
 
  //User Interface begins here//
 

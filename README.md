@@ -22,7 +22,7 @@ By Virlie Joy Paglinawan @ https://github.com/virlie/w3d5beepBoop.git.
 
   **Program replaces the 1 with the word "Boop!".**
   Example input: 7
-  Example output: "Boop!","Beep!",2,3,4,5,6,7
+  Example output: "Beep!","Boop!",2,3,4,5,6,7
 
   **Program  replaces a number that is divisible by 3 with the phrase: "I'm sorry, Dave. I'm afraid I can't do that.".**
   Example input: 7
