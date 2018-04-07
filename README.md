@@ -16,6 +16,9 @@ By Virlie Joy Paglinawan @ https://github.com/virlie/w3d5beepBoop.git.
   Example input: 7
   Example output: 0,1,2,3,4,5,6,7
 
+
+  <!-- //this rule got over-rode by the divisible by 3 rule
+  the example output becomes "sorry phrase" instead of "beep" -->
   **Program replaces the first number that has a 0 with the word "Beep!".**
   Example input:7
   Example output: "Beep!"1,2,3,4,5,6,7
@@ -34,7 +37,7 @@ By Virlie Joy Paglinawan @ https://github.com/virlie/w3d5beepBoop.git.
 
   **Program replaces the number that are divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that." and overrides the "0" and "1" rules**
   Example input: 15
-  Example output: "Beep!","Boop!",2,"I'm sorry, Dave. I'm afraid I can't do that.",4,5,"I'm sorry, Dave. I'm afraid I can't do that.",7,8,"I'm sorry, Dave. I'm afraid I can't do that.","Boop!","Boop!","I'm sorry, Dave. I'm afraid I can't do that.", 13, 14, "I'm sorry, Dave. I'm afraid I can't do that."
+  Example output: " "I'm sorry, Dave. I'm afraid I can't do that."","Boop!",2,"I'm sorry, Dave. I'm afraid I can't do that.",4,5,"I'm sorry, Dave. I'm afraid I can't do that.",7,8,"I'm sorry, Dave. I'm afraid I can't do that.","Boop!","Boop!","I'm sorry, Dave. I'm afraid I can't do that.", 13, 14, "I'm sorry, Dave. I'm afraid I can't do that."
 
 
   **Program needs to be able to play repeatedly.**
